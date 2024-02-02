@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); 
+* { font-family: "Roboto Slab", serif};
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+
+    background-image: url("./assets/Back.png");
+    background-size: cover;
+
+
+}
+
+
+.img1{
+
+    width: 300px;
+    height: 320px;
+
+}
+
+
+.sessao1{
+
+    width: 800px;
+    height: 480px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background: #ececec;
+    box-shadow: 4px 2.8px 25px rgb(0,0,255);
+    margin: auto;
+    position: relative;
+    top: 225px;
+
+}
+
+.tudo{
+    margin-left: 50px;
+    letter-spacing: 3px;
+
+
+}
+
+.seletores{
+    height: 35px;
+    width: 700px;
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    appearance: none;
+}
+
+
+
+.input1{
+    width: 659px;
+    height: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+
+
+.botao1{
+    width: 350px;
+    height: 35px;
+    font-size: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    padding: 0 0 2px 0;
+    background: #ececec;
+    cursor: pointer;
+    
+}
+
+.botao1:hover{
+
+    opacity: 90%;
+}
+
+
+.sessao2{
+
+    width: 750px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+
+
+}
+
+.moedas{
+
+    height: 70px;
+    width: 70px;
+    margin-top: 18px;
+    margin-left: 25px;
+    
+    
+
+}
+
+.seta{
+    height: 75px;
+    width: 80px;
+    margin-left: 35px;
+    
+    
+    
+
+}
+
+.input2{
+    
+    width: 180px;
+    height: 25px;
+    margin: 0 0 0 13px; 
+    position: relative;
+    top: -26.5px;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    border-color: gray;
+    
+    
+}
+
+.input3{
+    
+    width: 180px;
+    height: 25px;
+    margin: 0 0 0 20px;
+    position: relative;
+    top: -26.5px ;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    border-color: gray;
+}
+
+
+

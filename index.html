@@ -1,0 +1,68 @@
+<!-- Obs: Percebi que no lugar do <p> eu deveria ter usado o <label>, porém decidi não mudar neste projeto e deixar como recordação para o futuro.
+     Meus Proximos projetos serão feitos com a tag <label>.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <main>
+
+        <section class="sessao1">
+
+            <p class="tudo">Converter <b>de:</b></p>
+
+            <select class="seletor1 , seletores">
+
+                <option id="selecione"> Selecione...</option>
+                <option id="opcao1" value="opcao1"> R$ Real Brasileiro</option>
+                <option id="opcao2" value="opcao2"> € Euro </option>
+                <option id="opcao3" value="opcao3" > U$ Dolar Americano </option>
+
+            </select>
+
+            <p class="paragrafo, tudo">Converter <b>para:</b></p>
+
+            <select id="selecionador2" class="seletor2, seletores">
+
+                <option id="selecione2"> Selecione...</option>
+                <option id="op1" value="op1"> U$ Dolar Americano </option>
+                <option id="op2" value="op2"> € Euro </option>
+                <option id="op3" value="op3"> R$ Real Brasileiro </option>
+
+            </select>
+
+            <p class="tudo">Valor:</p>
+
+
+            <input class="input1" type="number"> <br>
+        
+            
+
+            <button class="botao1"> Converter</button>
+       
+            <section class="sessao2">
+            
+
+                <input class="input2" readonly="true">
+                <img id="image1" class="moedas" id="brasil" src="./assets/imagem-inicial.png" alt="imagem-brasil">
+                <img class="seta" src="./assets/seta.png" alt="seta">
+                <img id="image2" class="moedas" src="./assets/imagem-inicial.png" alt="imagem-eua">
+                <input class="input3" readonly="true">
+
+            </section>
+        </section>
+
+        
+
+
+
+
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
